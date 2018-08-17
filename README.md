@@ -2,6 +2,8 @@
 
 This starts a server which acts as an archiver for any shared hyperdb instances. Using hyperdb replicate any connecting instances to the same archiver will remain in sync.
 
+If someone else finds this concept useful I'll maintain this as a node package.
+
 ## Usage
 
 You can run `dat-gateway` to start a gateway server that listens on port 5000. You can also configure it! You can print usage information with `dat-gateway -h`:
