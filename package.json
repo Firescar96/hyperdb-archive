@@ -9,11 +9,13 @@
     "test": "standard && dependency-check . && mocha"
   },
   "dependencies": {
-    "dat-link-resolve": "^2.1.0",
     "dat-node": "^3.5.6",
-    "hyperdrive-http": "^4.2.2",
+    "express": "^4.16.3",
+    "express-ws": "^4.0.0",
+    "hyperdb": "^3.5.0",
     "lru-cache": "^4.1.1",
     "node-cache": "^4.1.1",
+    "websocket-stream": "^5.1.2",
     "yargs": "^11.0.0"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
   },
   "keywords": [
     "dat",
+    "hyperdb",
     "http",
     "https"
   ],

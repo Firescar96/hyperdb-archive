@@ -21,7 +21,7 @@ require('yargs')
         port: {
           alias: 'p',
           description: 'Port for the gateway to listen on.',
-          default: 3000
+          default: 5000
         },
         dir: {
           alias: 'd',
